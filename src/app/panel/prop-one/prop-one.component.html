@@ -1,0 +1,236 @@
+<app-nav></app-nav>
+<main id="four" @fadeInOut>
+  <section class="section1 p-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-5">
+          <div class="head">
+            <div class="text-end txt">
+              <div class="star star1">
+                <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.93852 0.090943C6.93852 3.93905 3.8159 7.08777 0 7.08777C3.8159 7.08777 6.93852 10.236 6.93852 14.0846C6.93852 10.236 10.0611 7.08777 13.877 7.08777C10.0611 7.08777 6.93852 3.93905 6.93852 0.090943Z"
+                    fill="#F8B602" />
+                </svg>
+
+              </div>
+              <h2>قم بكتابة وصف منزل أحلامك</h2>
+              <div class="star star2">
+                <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.93852 0.090943C6.93852 3.93905 3.8159 7.08777 0 7.08777C3.8159 7.08777 6.93852 10.236 6.93852 14.0846C6.93852 10.236 10.0611 7.08777 13.877 7.08777C10.0611 7.08777 6.93852 3.93905 6.93852 0.090943Z"
+                    fill="#F8B602" />
+                </svg>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section2 p-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="txt mt-5">
+            <p>وصف مختصر عن المنزل</p>
+            <input type="text" class="form-control" required #brief="ngModel" [(ngModel)]="apartBrief">
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="imag">
+            <svg width="173" height="174" viewBox="0 0 173 174" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.2">
+                <g filter="url(#filter0_bii_1_9639)">
+                  <path
+                    d="M172.932 69.3477C172.392 63.2318 169.249 57.5553 164.249 53.8723L151.375 44.3438V71.2398V85.2961L172.932 69.3477ZM173 152.3V82.7281L99.475 137.196C95.7244 140.001 91.1629 141.487 86.5 141.487C81.8371 141.487 77.2756 140.001 73.525 137.196L0 82.7281V152.3C0 164.227 9.69746 173.925 21.625 173.925H151.375C163.303 173.925 173 164.227 173 152.3ZM21.625 85.2961V71.2398V44.3438L8.75137 53.8723C3.75059 57.5553 0.608203 63.2318 0.0675781 69.3477L21.625 85.2961ZM97.8193 4.67539C94.5418 2.24258 90.5885 0.924805 86.5 0.924805C82.4115 0.924805 78.4582 2.24258 75.1807 4.6416L65.6184 11.7373H107.382L97.8193 4.67539ZM59.4688 44.1748C56.4953 44.1748 54.0625 46.6076 54.0625 49.5811C54.0625 52.5545 56.4953 54.9873 59.4688 54.9873H113.531C116.505 54.9873 118.938 52.5545 118.938 49.5811C118.938 46.6076 116.505 44.1748 113.531 44.1748H59.4688ZM59.4688 65.7998C56.4953 65.7998 54.0625 68.2326 54.0625 71.2061C54.0625 74.1795 56.4953 76.6123 59.4688 76.6123H113.531C116.505 76.6123 118.938 74.1795 118.938 71.2061C118.938 68.2326 116.505 65.7998 113.531 65.7998H59.4688Z"
+                    fill="#3E97FF" fill-opacity="0.8" />
+                </g>
+                <g opacity="0.4" filter="url(#filter1_bii_1_9639)">
+                  <path
+                    d="M31.9102 13.5832C25.9295 13.5832 21.0977 18.415 21.0977 24.3957V87.142L79.4514 130.358C81.3435 131.744 83.6412 132.521 85.9726 132.521C88.3041 132.521 90.6017 131.777 92.4939 130.358L150.848 87.142V24.3957C150.848 18.415 146.016 13.5832 140.035 13.5832H31.9102ZM58.9414 46.0207H113.004C115.977 46.0207 118.41 48.4535 118.41 51.4269C118.41 54.4004 115.977 56.8332 113.004 56.8332H58.9414C55.968 56.8332 53.5352 54.4004 53.5352 51.4269C53.5352 48.4535 55.968 46.0207 58.9414 46.0207ZM58.9414 67.6457H113.004C115.977 67.6457 118.41 70.0785 118.41 73.0519C118.41 76.0254 115.977 78.4582 113.004 78.4582H58.9414C55.968 78.4582 53.5352 76.0254 53.5352 73.0519C53.5352 70.0785 55.968 67.6457 58.9414 67.6457Z"
+                    fill="#3E97FF" fill-opacity="0.8" />
+                </g>
+              </g>
+              <defs>
+                <filter id="filter0_bii_1_9639" x="-2.46988" y="-1.54507" width="177.94" height="177.94"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feGaussianBlur in="BackgroundImageFix" stdDeviation="0.963253" />
+                  <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_9639" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_9639" result="shape" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dx="-2.46988" dy="2.46988" />
+                  <feGaussianBlur stdDeviation="1.23494" />
+                  <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0" />
+                  <feBlend mode="normal" in2="shape" result="effect2_innerShadow_1_9639" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dx="2.46988" dy="-2.46988" />
+                  <feGaussianBlur stdDeviation="1.23494" />
+                  <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0.185349 0 0 0 0 0.449688 0 0 0 0 0.76 0 0 0 0.2 0" />
+                  <feBlend mode="normal" in2="effect2_innerShadow_1_9639" result="effect3_innerShadow_1_9639" />
+                </filter>
+                <filter id="filter1_bii_1_9639" x="15.3104" y="7.79595" width="141.324" height="130.512"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.89362" />
+                  <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_9639" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_9639" result="shape" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dx="-0.355045" dy="0.355045" />
+                  <feGaussianBlur stdDeviation="0.177523" />
+                  <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.6 0" />
+                  <feBlend mode="normal" in2="shape" result="effect2_innerShadow_1_9639" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dx="0.355045" dy="-0.355045" />
+                  <feGaussianBlur stdDeviation="0.177523" />
+                  <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0.204859 0 0 0 0 0.497024 0 0 0 0 0.84 0 0 0 0.6 0" />
+                  <feBlend mode="normal" in2="effect2_innerShadow_1_9639" result="effect3_innerShadow_1_9639" />
+                </filter>
+              </defs>
+            </svg>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section3 p-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="text">
+            <div class="upper d-flex gap-3 flex-wrap align-items-center flex-end">
+              <p>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M9.16648 6.75814L9.99981 5.9248C11.1044 4.82023 11.1044 3.02937 9.99981 1.9248C8.89524 0.820232 7.10438 0.820232 5.99981 1.9248L5.16648 2.75814M2.83315 5.09147L1.99981 5.9248C0.895244 7.02937 0.895245 8.82023 1.99981 9.9248C3.10438 11.0294 4.89524 11.0294 5.99981 9.9248L6.83315 9.09147M7.49981 4.4248L4.49981 7.4248"
+                    stroke="#667085" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </p>
+              <p>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1.1665 8.59149L2.9973 6.26262C3.51644 5.60224 4.50952 5.58063 5.05689 6.21781L6.6665 8.09149M5.27653 6.47348C5.96797 5.59393 6.9314 4.34786 6.99407 4.26678L7.00073 4.25827C7.5208 3.60214 8.51072 3.58203 9.05689 4.21781L10.6665 6.09149M2.49984 1.09149H9.49984C10.2362 1.09149 10.8332 1.68845 10.8332 2.42482V9.42482C10.8332 10.1612 10.2362 10.7582 9.49984 10.7582H2.49984C1.76346 10.7582 1.1665 10.1612 1.1665 9.42482V2.42483C1.1665 1.68845 1.76346 1.09149 2.49984 1.09149Z"
+                    stroke="#667085" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </p>
+              <div class="vr"></div>
+              <p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.49984 4.92483H12.1665M6.49984 8.92482H12.1665M6.49984 12.9248H12.1665M4.33317 4.92483C4.33317 5.10892 4.18393 5.25816 3.99984 5.25816C3.81574 5.25816 3.6665 5.10892 3.6665 4.92483C3.6665 4.74073 3.81574 4.59149 3.99984 4.59149C4.18393 4.59149 4.33317 4.74073 4.33317 4.92483ZM4.33317 8.92482C4.33317 9.10892 4.18393 9.25816 3.99984 9.25816C3.81574 9.25816 3.6665 9.10892 3.6665 8.92482C3.6665 8.74073 3.81574 8.59149 3.99984 8.59149C4.18393 8.59149 4.33317 8.74073 4.33317 8.92482ZM4.33317 12.9248C4.33317 13.1089 4.18393 13.2582 3.99984 13.2582C3.81574 13.2582 3.6665 13.1089 3.6665 12.9248C3.6665 12.7407 3.81574 12.5915 3.99984 12.5915C4.18393 12.5915 4.33317 12.7407 4.33317 12.9248Z"
+                    stroke="#667085" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </p>
+              <p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M3.1665 5.09149L4.1665 4.09149V7.75816M4.1665 7.75816H3.1665M4.1665 7.75816H4.83317M8.83316 10.4248H7.77066C7.2835 10.4248 7.01198 9.88208 7.27036 9.4964C7.30219 9.44889 7.34725 9.41224 7.39487 9.38055L8.59477 8.58213C8.64239 8.55044 8.6873 8.51364 8.7198 8.46658C9.01673 8.03671 8.71403 7.42482 8.16822 7.42482H7.1665M11.1665 10.7582H12.1308C12.9537 10.7582 13.0997 12.0165 12.3399 12.2286C12.3031 12.2389 12.2645 12.243 12.2263 12.2443L11.8332 12.2582L12.2263 12.272C12.2645 12.2734 12.3031 12.2775 12.3399 12.2877C13.0997 12.4998 12.9537 13.7582 12.1308 13.7582H11.1665"
+                    stroke="#667085" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </p>
+              <div class="vr"></div>
+              <p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.1665 4.75812H10.8332M5.1665 13.0915H10.8332M3.1665 8.92478H12.8332" stroke="#667085"
+                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </p>
+              <p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.1665 4.75812H10.8332M5.1665 13.0915H10.8332M3.1665 8.92478H12.8332" stroke="#667085"
+                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </p>
+              <p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.1665 4.75812H9.49984M3.1665 13.0915H9.49984M3.1665 8.92478H12.8332" stroke="#667085"
+                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </p>
+              <div class="vr"></div>
+              <p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M3.1665 9.09145H12.8332M12.1665 6.42478V6.25812C12.1665 5.15355 11.2711 4.25812 10.1665 4.25812H5.83317C4.7286 4.25812 3.83317 5.15355 3.83317 6.25812V7.09145C3.83317 8.19602 4.7286 9.09145 5.83317 9.09145H9.99984M3.83317 11.4248V11.7581C3.83317 12.8627 4.7286 13.7581 5.83317 13.7581H10.1665C11.2711 13.7581 12.1665 12.8627 12.1665 11.7581V10.7581"
+                    stroke="#667085" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </p>
+              <p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.1665 13.7581H12.8332" stroke="#667085" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M10.8332 4.09149V8.25816C10.8332 9.82297 9.56464 11.0915 7.99984 11.0915C6.43503 11.0915 5.1665 9.82297 5.1665 8.25816V4.09149"
+                    stroke="#667085" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </p>
+              <p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M9.33317 4.09149H7.83317M9.33317 4.09149H10.8332M9.33317 4.09149L6.6665 13.7582M6.6665 13.7582H5.1665M6.6665 13.7582H8.1665"
+                    stroke="#667085" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </p>
+              <p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4.5 4.09149H8.33333C9.71404 4.09149 10.8333 5.21078 10.8333 6.59149C10.8333 7.9722 9.71404 9.09149 8.33333 9.09149H4.5V4.09149Z"
+                    stroke="#667085" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M4.5 9.09149H9.16667C10.4553 9.09149 11.5 10.1362 11.5 11.4248C11.5 12.7135 10.4553 13.7582 9.16667 13.7582H4.5V9.09149Z"
+                    stroke="#667085" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </p>
+              <div class="vr"></div>
+              <p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect y="0.924805" width="16" height="16" rx="8" fill="#334155" />
+                </svg>
+              </p>
+              <p>
+                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M14.1668 7.75812V6.75812H5.8335V7.75812M10.0002 6.92478V15.0915M10.0002 15.0915H9.16683M10.0002 15.0915H10.8335"
+                    stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </p>
+              <div class="vr"></div>
+              <div class="size">
+                <p><svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.16683 1.09149L3.00016 3.42483L0.833496 1.09149" stroke="#98A2B3" stroke-width="1.5"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  14
+                </p>
+              </div>
+            </div>
+            <textarea name="" id="" cols="136" rows="10" required #disc="ngModel" [(ngModel)]="apartDisc"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="text-center">
+    <button class="btn btn-primary" type="submit" (click)="add()" [disabled]="brief.invalid || disc.invalid">الخطوة
+      التالية</button>
+  </div>
+</main>

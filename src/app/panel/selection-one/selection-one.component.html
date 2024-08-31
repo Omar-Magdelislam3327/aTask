@@ -1,0 +1,211 @@
+<app-nav></app-nav>
+<main id="two" @fadeInOut>
+  <section class="section1 p-4 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-5 m-auto">
+          <div class="head">
+
+            <div class="text-center txt">
+              <div class=" star1">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.51469 0.831421C7.51469 4.67953 4.39207 7.82825 0.576172 7.82825C4.39207 7.82825 7.51469 10.9765 7.51469 14.8251C7.51469 10.9765 10.6373 7.82825 14.4532 7.82825C10.6373 7.82825 7.51469 4.67953 7.51469 0.831421Z"
+                    fill="#3E97FF" />
+                </svg>
+              </div>
+              <h2>أختر المكان المفضل لسكنك</h2>
+              <p>قم بأختيار مصدر شقك الأسكانية كل تستكمل باقي الخطوات</p>
+              <div class=" star2">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.51469 0.831421C7.51469 4.67953 4.39207 7.82825 0.576172 7.82825C4.39207 7.82825 7.51469 10.9765 7.51469 14.8251C7.51469 10.9765 10.6373 7.82825 14.4532 7.82825C10.6373 7.82825 7.51469 4.67953 7.51469 0.831421Z"
+                    fill="#3E97FF" />
+                </svg>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section2 p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+          <div class="box box1 p-2 mt-3" data-radio="cairo">
+            <input type="radio" name="radio" id="cairo" value="cairo" required #location="ngModel"
+              [(ngModel)]="apartLocation">
+            <br>
+            <div class=" d-flex flex-column text-center">
+              <div class="icon mb-2">
+                <svg width="36" height="32" viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M35.4876 15.9696C35.4876 17.0634 34.5762 17.9202 33.5432 17.9202H31.5987L31.6413 27.6545C31.6413 27.8186 31.6291 27.9827 31.6109 28.1467V29.1311C31.6109 30.474 30.5232 31.5616 29.1803 31.5616H28.2081C28.1413 31.5616 28.0744 31.5616 28.0076 31.5556C27.9225 31.5616 27.8375 31.5616 27.7524 31.5616L25.7776 31.5556H24.3192C22.9763 31.5556 21.8887 30.4679 21.8887 29.125V27.6667V23.7778C21.8887 22.7023 21.0197 21.8333 19.9442 21.8333H16.0553C14.9798 21.8333 14.1109 22.7023 14.1109 23.7778V27.6667V29.125C14.1109 30.4679 13.0232 31.5556 11.6803 31.5556H10.222H8.28364C8.19249 31.5556 8.10135 31.5495 8.0102 31.5434C7.93728 31.5495 7.86437 31.5556 7.79145 31.5556H6.81923C5.47635 31.5556 4.38867 30.4679 4.38867 29.125V22.3195C4.38867 22.2648 4.38867 22.204 4.39475 22.1493V17.9141H2.4503C1.35655 17.9141 0.505859 17.0634 0.505859 15.9636C0.505859 15.4167 0.688151 14.9306 1.1135 14.5052L16.6873 0.930569C17.1126 0.505222 17.5987 0.444458 18.0241 0.444458C18.4494 0.444458 18.9355 0.565986 19.3001 0.869805L34.8192 14.5113C35.3053 14.9366 35.5484 15.4228 35.4876 15.9696Z"
+                    fill="#3E97FF" />
+                </svg>
+              </div>
+              <h6> القاهرة</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="box box2 p-2 mt-3" data-radio="coast">
+            <input type="radio" name="radio" id="coast" value="coast" required #location="ngModel"
+              [(ngModel)]="apartLocation">
+            <br>
+            <div class=" d-flex flex-column text-center">
+              <div class="icon mb-2">
+                <svg width="36" height="28" viewBox="0 0 36 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.625 0C5.17578 0 4 1.17578 4 2.625V5.25H1.375C0.89375 5.25 0.5 5.64375 0.5 6.125C0.5 6.60625 0.89375 7 1.375 7H4H15.375C15.8562 7 16.25 7.39375 16.25 7.875C16.25 8.35625 15.8562 8.75 15.375 8.75H4H3.125C2.64375 8.75 2.25 9.14375 2.25 9.625C2.25 10.1062 2.64375 10.5 3.125 10.5H4H13.625C14.1062 10.5 14.5 10.8938 14.5 11.375C14.5 11.8562 14.1062 12.25 13.625 12.25H4H1.375C0.89375 12.25 0.5 12.6438 0.5 13.125C0.5 13.6062 0.89375 14 1.375 14H4H11.875C12.3562 14 12.75 14.3938 12.75 14.875C12.75 15.3562 12.3562 15.75 11.875 15.75H4V22.75C4 25.6484 6.35156 28 9.25 28C12.1484 28 14.5 25.6484 14.5 22.75H21.5C21.5 25.6484 23.8516 28 26.75 28C29.6484 28 32 25.6484 32 22.75H33.75C34.718 22.75 35.5 21.968 35.5 21C35.5 20.032 34.718 19.25 33.75 19.25V15.75V14V12.9773C33.75 12.0477 33.3836 11.1562 32.7273 10.5L28.5 6.27266C27.8438 5.61641 26.9523 5.25 26.0227 5.25H23.25V2.625C23.25 1.17578 22.0742 0 20.625 0H6.625ZM30.25 12.9773V14H23.25V8.75H26.0227L30.25 12.9773ZM9.25 20.125C9.94619 20.125 10.6139 20.4016 11.1062 20.8938C11.5984 21.3861 11.875 22.0538 11.875 22.75C11.875 23.4462 11.5984 24.1139 11.1062 24.6062C10.6139 25.0984 9.94619 25.375 9.25 25.375C8.55381 25.375 7.88613 25.0984 7.39384 24.6062C6.90156 24.1139 6.625 23.4462 6.625 22.75C6.625 22.0538 6.90156 21.3861 7.39384 20.8938C7.88613 20.4016 8.55381 20.125 9.25 20.125ZM24.125 22.75C24.125 22.0538 24.4016 21.3861 24.8938 20.8938C25.3861 20.4016 26.0538 20.125 26.75 20.125C27.4462 20.125 28.1139 20.4016 28.6062 20.8938C29.0984 21.3861 29.375 22.0538 29.375 22.75C29.375 23.4462 29.0984 24.1139 28.6062 24.6062C28.1139 25.0984 27.4462 25.375 26.75 25.375C26.0538 25.375 25.3861 25.0984 24.8938 24.6062C24.4016 24.1139 24.125 23.4462 24.125 22.75Z"
+                    fill="#FFBD66" />
+                </svg>
+              </div>
+              <h6> الساحل الشمالي</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="box box3 p-2 mt-3" data-radio="dahab">
+            <input type="radio" name="radio" id="dahab" value="dahab" required #location="ngModel"
+              [(ngModel)]="apartLocation">
+            <br>
+            <div class=" d-flex flex-column text-center">
+              <div class="icon mb-2">
+                <svg width="36" height="39" viewBox="0 0 36 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filter0_bii_1_14521)">
+                    <path
+                      d="M12.1146 0.924805C7.63875 0.924805 4 4.56355 4 9.03939C4 13.4298 7.43375 16.9831 11.9096 17.1369C12.0462 17.1198 12.1829 17.1198 12.2854 17.1369C12.3196 17.1369 12.3367 17.1369 12.3708 17.1369C12.3879 17.1369 12.3879 17.1369 12.405 17.1369C16.7783 16.9831 20.2121 13.4298 20.2292 9.03939C20.2292 4.56355 16.5904 0.924805 12.1146 0.924805Z"
+                      fill="#6746F6" />
+                  </g>
+                  <g filter="url(#filter1_bii_1_14521)">
+                    <path
+                      d="M20.705 25.3079C15.9388 22.1304 8.16583 22.1304 3.36542 25.3079C1.19583 26.76 0 28.7246 0 30.8258C0 32.9271 1.19583 34.8746 3.34833 36.3096C5.74 37.9154 8.88333 38.7183 12.0267 38.7183C15.17 38.7183 18.3133 37.9154 20.705 36.3096C22.8575 34.8575 24.0533 32.91 24.0533 30.7917C24.0363 28.6904 22.8575 26.7429 20.705 25.3079Z"
+                      fill="#6746F6" />
+                  </g>
+                  <g opacity="0.4" filter="url(#filter2_bii_1_14521)">
+                    <path
+                      d="M32.045 9.53405C32.3183 12.8482 29.9608 15.7524 26.6979 16.1453C26.6808 16.1453 26.6808 16.1453 26.6638 16.1453H26.6125C26.51 16.1453 26.4075 16.1453 26.3221 16.1795C24.665 16.2649 23.1446 15.7353 22 14.7615C23.7596 13.1899 24.7675 10.8324 24.5625 8.26988C24.4429 6.88613 23.9646 5.62196 23.2471 4.54571C23.8963 4.22113 24.6479 4.01613 25.4167 3.9478C28.765 3.65738 31.7546 6.15155 32.045 9.53405Z"
+                      fill="#6746F6" />
+                  </g>
+                  <g opacity="0.4" filter="url(#filter3_bii_1_14521)">
+                    <path
+                      d="M35.6667 29.9126C35.53 31.5696 34.4708 33.0046 32.6942 33.9784C30.9858 34.918 28.8333 35.3621 26.6979 35.3109C27.9279 34.2005 28.6454 32.8167 28.7821 31.3476C28.9529 29.2292 27.945 27.1963 25.9292 25.5734C24.7846 24.668 23.4521 23.9505 22 23.4209C25.7754 22.3276 30.5246 23.0621 33.4458 25.4196C35.0175 26.6838 35.8204 28.2726 35.6667 29.9126Z"
+                      fill="#6746F6" />
+                  </g>
+                  <defs>
+                    <filter id="filter0_bii_1_14521" x="1.83725" y="-1.23795" width="20.555" height="20.5376"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.08137" />
+                      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_14521" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_14521" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dx="-1.08137" dy="1.08137" />
+                      <feGaussianBlur stdDeviation="0.540687" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0" />
+                      <feBlend mode="normal" in2="shape" result="effect2_innerShadow_1_14521" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dx="1.08137" dy="-1.08137" />
+                      <feGaussianBlur stdDeviation="0.540687" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix"
+                        values="0 0 0 0 0.122196 0 0 0 0 0.134118 0 0 0 0 0.14902 0 0 0 0.1 0" />
+                      <feBlend mode="normal" in2="effect2_innerShadow_1_14521" result="effect3_innerShadow_1_14521" />
+                    </filter>
+                    <filter id="filter1_bii_1_14521" x="-2.65646" y="20.2683" width="29.3666" height="21.1064"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.32823" />
+                      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_14521" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_14521" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dx="-1.32823" dy="1.32823" />
+                      <feGaussianBlur stdDeviation="0.664115" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0" />
+                      <feBlend mode="normal" in2="shape" result="effect2_innerShadow_1_14521" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dx="1.32823" dy="-1.32823" />
+                      <feGaussianBlur stdDeviation="0.664115" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix"
+                        values="0 0 0 0 0.122196 0 0 0 0 0.134118 0 0 0 0 0.14902 0 0 0 0.1 0" />
+                      <feBlend mode="normal" in2="effect2_innerShadow_1_14521" result="effect3_innerShadow_1_14521" />
+                    </filter>
+                    <filter id="filter2_bii_1_14521" x="20.5113" y="2.43613" width="13.0438" height="15.241"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feGaussianBlur in="BackgroundImageFix" stdDeviation="0.744339" />
+                      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_14521" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_14521" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dx="-0.744339" dy="0.744339" />
+                      <feGaussianBlur stdDeviation="0.372169" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0" />
+                      <feBlend mode="normal" in2="shape" result="effect2_innerShadow_1_14521" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dx="0.744339" dy="-0.744339" />
+                      <feGaussianBlur stdDeviation="0.372169" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix"
+                        values="0 0 0 0 0.122196 0 0 0 0 0.134118 0 0 0 0 0.14902 0 0 0 0.1 0" />
+                      <feBlend mode="normal" in2="effect2_innerShadow_1_14521" result="effect3_innerShadow_1_14521" />
+                    </filter>
+                    <filter id="filter3_bii_1_14521" x="20.2616" y="21.1864" width="17.1623" height="15.8668"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feGaussianBlur in="BackgroundImageFix" stdDeviation="0.869179" />
+                      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_14521" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_14521" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dx="-0.869179" dy="0.869179" />
+                      <feGaussianBlur stdDeviation="0.434589" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0" />
+                      <feBlend mode="normal" in2="shape" result="effect2_innerShadow_1_14521" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dx="0.869179" dy="-0.869179" />
+                      <feGaussianBlur stdDeviation="0.434589" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix"
+                        values="0 0 0 0 0.122196 0 0 0 0 0.134118 0 0 0 0 0.14902 0 0 0 0.1 0" />
+                      <feBlend mode="normal" in2="effect2_innerShadow_1_14521" result="effect3_innerShadow_1_14521" />
+                    </filter>
+                  </defs>
+                </svg>
+
+              </div>
+              <h6> دهب</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="botm">
+        <div class="text-center mt-5">
+          <button class="btn btn-primary" (click)="add()" [disabled]="location.invalid " type="submit">
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.6738 8C14.6738 9.72391 13.989 11.3772 12.77 12.5962C11.551 13.8152 9.89774 14.5 8.17383 14.5C6.44992 14.5 4.79662 13.8152 3.57763 12.5962C2.35865 11.3772 1.67383 9.72391 1.67383 8C1.67383 6.27609 2.35865 4.62279 3.57763 3.40381C4.79662 2.18482 6.44992 1.5 8.17383 1.5C9.89774 1.5 11.551 2.18482 12.77 3.40381C13.989 4.62279 14.6738 6.27609 14.6738 8ZM0.173828 8C0.173828 10.1217 1.01668 12.1566 2.51697 13.6569C4.01726 15.1571 6.0521 16 8.17383 16C10.2956 16 12.3304 15.1571 13.8307 13.6569C15.331 12.1566 16.1738 10.1217 16.1738 8C16.1738 5.87827 15.331 3.84344 13.8307 2.34315C12.3304 0.842855 10.2956 0 8.17383 0C6.0521 0 4.01726 0.842855 2.51697 2.34315C1.01668 3.84344 0.173828 5.87827 0.173828 8ZM7.70508 11.7812L10.9551 8.53125C11.2488 8.2375 11.2488 7.7625 10.9551 7.47188L7.70508 4.21875C7.41133 3.925 6.93633 3.925 6.6457 4.21875C6.35508 4.5125 6.35195 4.9875 6.6457 5.27812L9.36445 7.99687L6.6457 10.7156C6.35195 11.0094 6.35195 11.4844 6.6457 11.775C6.93945 12.0656 7.41445 12.0687 7.70508 11.775V11.7812Z"
+                fill="white" />
+            </svg>
+            ابدأ الأن
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

@@ -1,0 +1,22 @@
+{
+  "apartments": [
+    {
+      "id": 1,
+      "name": "Awel",
+      "location": "Cairo",
+      "type": "Duplex",
+      "brief": "lorem",
+      "disc": "lorem ibsum",
+      "design": "Modern"
+    },
+    {
+      "name": "e",
+      "location": "coast",
+      "type": "dublex",
+      "brief": "d",
+      "disc": "c",
+      "design": "",
+      "id": 2
+    }
+  ]
+}
